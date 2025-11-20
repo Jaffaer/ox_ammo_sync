@@ -27,4 +27,4 @@ Uses ox_inventory metadata to keep weapon ammo accurate.
 
 - extract in to resources 
 
-- open server.cfg add ensure ammo_sync_jaffar
+- open server.cfg add ensure ox_ammo_sync
