@@ -11,11 +11,11 @@ Every time a player fires a shot, the ammunition is instantly saved to the datab
 
 Prevents players from duping ammo by logging out and back in quickly.
 
-Works with both vanilla and addon weapons.
+Works all types of weapons addon/orginal.
 
 Uses ox_inventory metadata to keep weapon ammo accurate.
 
-Features
+## Features ##
 
 ✅ Saves ammo instantly on each shot
 ✅ Prevents ammo duping
