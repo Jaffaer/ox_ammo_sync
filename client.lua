@@ -1,7 +1,7 @@
 CreateThread(function()
     local resourceName = GetCurrentResourceName()
-    if resourceName ~= "ammo_sync_jaffar" then
-        print("^1[ammo-sync] Fel resursnamn! Byt tillbaka till 'ammo_sync_jaffar'^0")
+    if resourceName ~= "ox_ammo_sync" then
+        print("^1[ammo-sync] Fel resursnamn! Byt tillbaka till 'ox_ammo_sync'^0")
         while true do Wait(1000) end 
     end
 end)
@@ -24,3 +24,4 @@ AddEventHandler('gameEventTriggered', function(event, data)
         end
     end
 end)
+
